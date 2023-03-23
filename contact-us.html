@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Contact Us</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230323150634">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__column header__column_wide">
+					<a href="index.html" class="header__logo"><img data-src="img/logo.svg" alt=""></a>
+				</div>
+				<div class="header__column header__column_menu">
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="index.html" class="menu__link">Home</a></li>
+								<li class="menu__item"><a href="about.html" class="menu__link">About us</a></li>
+								<li class="menu__item"><a href="feature.html" class="menu__link">Features</a></li>
+								<li class="menu__item"><a href="pricing.html" class="menu__link">Pricing</a></li>
+								<li class="menu__item"><a data-goto-header data-goto=".questions" href="" class="menu__link">FAQ</a></li>
+								<li class="menu__item"><a href="blogs.html" class="menu__link">Blog</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<div data-da=".menu__body,479.98" class="header__column header__column_action">
+					<div class="header__action action-header">
+						<a href="contact-us.html" class="action-header__button button button_border">Contact us</a>
+					</div>
+				</div>
+				<button type="button" class="icon-menu"><span></span></button>
+			</div>
+		</header>
+		<main class="page page_inner">
+			<section class="contact-us">
+				<div class="contact-us__container contact-us__container_slim">
+					<div class="contact-us__header header-block">
+						<h1 class="header-block__title">
+							Contact Us
+						</h1>
+						<div class="header-block__text">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+								ut labore.</p>
+						</div>
+					</div>
+					<form data-ajax data-popup-message="#form-submit" method="POST" action="componetns/sendmail/sendmail.php" class="contact-us__form form-contact-us">
+						<div class="form-contact-us__row form-contact-us__row_two-column">
+							<div class="form-contact-us__line">
+								<label for="userName" class="form-contact-us__label">Name</label>
+								<input id="userName" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Enter your name" class="form-contact-us__input">
+							</div>
+							<div class="form-contact-us__line">
+								<label for="userEmail" class="form-contact-us__label">Email</label>
+								<input id="userEmail" data-required autocomplete="off" type="text" name="form[]" data-error="Error" placeholder="Enter your Emial" class="form-contact-us__input">
+							</div>
+							<div class="form-contact-us__line">
+								<label for="userSubject-01" class="form-contact-us__label">Subject</label>
+								<input id="userSubject-01" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Provide context" class="form-contact-us__input">
+							</div>
+							<div class="form-contact-us__line">
+								<label for="userSubject-02" class="form-contact-us__label">Subject</label>
+								<input id="userSubject-02" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Select Subject" class="form-contact-us__input">
+							</div>
+						</div>
+						<div class="form-contact-us__row form-contact-us__row_one-column">
+							<div class="form-contact-us__line">
+								<label for="message" class="form-contact-us__label">Message</label>
+								<textarea id="message" class="form-contact-us__textarea" placeholder="Write your  question here"></textarea>
+							</div>
+						</div>
+						<button type="submit" class="form-contact-us__button button button_dark">
+							Send Messege
+						</button>
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__main main-footer">
+				<div class="main-footer__container">
+					<div class="main-footer__body">
+						<div class="main-footer__item">
+							<a href="" class="main-footer__logo"><img data-src="img/logo.svg" alt="logo"></a>
+							<div class="main-footer__text">
+								<p>We are always open to discuss your project and improve your online presence.</p>
+							</div>
+							<div class="main-footer__contacts contacts-main-footer">
+								<div class="contacts-main-footer__item">
+									<div class="contacts-main-footer__label">
+										<p>Email me at</p>
+									</div>
+									<a href="mailto:contact@website.com" class="contacts-main-footer__email">contact@website.com</a>
+								</div>
+								<div class="contacts-main-footer__item">
+									<div class="contacts-main-footer__label">
+										<p>Call us</p>
+									</div>
+									<a href="tel:0927627728525" class="contacts-main-footer__email">0927 6277 28525</a>
+								</div>
+							</div>
+						</div>
+						<div class="main-footer__item">
+							<h2 class="main-footer__title">Lets Talk!</h2>
+							<div class="main-footer__text">
+								<p>
+									We are always open to discuss your project, improve your online presence and help with your
+									UX/UI design challenges.
+								</p>
+							</div>
+							<div class="main-footer__social social">
+								<div class="social__item">
+									<a href="" class="social__link _icon-facebook"></a>
+								</div>
+								<div class="social__item">
+									<a href="" class="social__link _icon-twitter"></a>
+								</div>
+								<div class="social__item">
+									<a href="" class="social__link _icon-instagram"></a>
+								</div>
+								<div class="social__item">
+									<a href="" class="social__link _icon-linkedin"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__copy copy-footer">
+				<div class="copy-footer__container">
+					<div class="copy-footer__text">
+						<p>Design Handoff by Finsweet Client-First</p>
+					</div>
+					<div class="copy-footer__menu menu-copy-footer">
+						<nav class="menu-copy-footer__body">
+							<ul class="menu-copy-footer__list">
+								<li class="menu-copy-footer__item"><a href="../index.html" class="menu-copy-footer__link">Home</a></li>
+								<li class="menu-copy-footer__item"><a href="../about.html" class="menu-copy-footer__link">About
+										us</a></li>
+								<li class="menu-copy-footer__item"><a href="../feature.html" class="menu-copy-footer__link">Features</a></li>
+								<li class="menu-copy-footer__item"><a href="../pricing.html" class="menu-copy-footer__link">Pricing</a></li>
+								<li class="menu-copy-footer__item"><a href="" data-goto=".questions" class="menu-copy-footer__link">FAQ</a></li>
+								<li class="menu-copy-footer__item"><a href="" class="menu-copy-footer__link">Blog</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div id="form-submit" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">Закрыть</button>
+				<div class="popup__text">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis dolorum modi quasi temporibus
+					dolores aut vitae dicta optio enim! Consequatur perferendis facilis sit iste dicta impedit sequi
+					voluptate veniam nisi.
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20230323150634"></script>
+</body>
+
+</html>
